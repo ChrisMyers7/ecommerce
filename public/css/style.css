@@ -1,0 +1,14 @@
+h1 {
+  display: inline-block;
+}
+
+.admin {
+  display: flex;
+  flex-direction: row;
+}
+div {
+  margin-left: 10px;
+}
+button {
+  margin-left: 10px;
+}

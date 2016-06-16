@@ -1,0 +1,11 @@
+<input placeholder="New Product" ng-model="product.title"/><input placeholder="Product Description" ng-model="product.description"/><input placeholder="Product Price" ng-model='product.price'/>
+<button ng-click='addProduct()'>Add Product</button>
+<div class="admin" ng-repeat='product in products'>
+
+  <div>Product Name: {{product.title}} </div>
+  <div> Product Description: {{product.description}} </div>
+  <div> Product Price: {{product.price}}</div>
+  <button ng-click='updateProduct(product)'>Update Product</button>
+  <button ng-click='deleteProduct($index)'>Delete</button>
+
+</div>
